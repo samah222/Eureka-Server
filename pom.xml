@@ -30,10 +30,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 			<exclusions>
-<!--				<exclusion>-->
-<!--					<groupId>org.springframework.cloud</groupId>-->
-<!--					<artifactId>spring-cloud-starter-r</artifactId>-->
-<!--				</exclusion>-->
 				<exclusion>
 					<groupId>com.netflix.ribbon</groupId>
 					<artifactId>netflix-ribbon</artifactId>
